@@ -4,7 +4,7 @@ for learning
 pragma solidity >=0.8.0;
 
 interface Token {
-    function balanceOf(address _a) external view returns
+    function balanceOf(address _a) external view
     function transfer(address _to, uint _amt) external;
 }
 
