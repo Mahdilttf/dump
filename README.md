@@ -4,7 +4,7 @@ for learning
 pragma solidity >=0.8.0;
 
 interface Token {
-    function balanceOf(address _a) externa
+    function balanceOf(address _a)
     function transfer(address _to, uint _amt)
 }
 
