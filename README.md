@@ -13,7 +13,7 @@ contract TokenCorrect is Token {
     constructor(address _a, uint _b) {
         balance[_a] = _b;
     }
-    function balanceOf(address _a) public view
+    function balanceOf(address _a) public
         return balance[_a];
     }
     function transfer(address _to, uint _amt)
