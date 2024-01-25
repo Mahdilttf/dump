@@ -16,7 +16,7 @@ contract TokenCorrect is Token {
     function balanceOf(address _a) public
         return balance[_a];
     }
-    function transfer(address _to, uint _amt)
+    function transfer(address _t, uint _amt)
         require(balance[msg.sender] >= _amt);
         balance[msg.sender] -= _amt;
         balance[_to] += _amt;
